@@ -24,7 +24,7 @@ AUTHORIZED_KEYS=$(cat ~/.ssh/multipass_docker.pub )
 # version はここから確認 https://github.com/docker/compose/releases
 DOCKER_COMPOSE_VER=v2.3.4
 # ヒアドキュメントでファイルを作成する
-cat > ./multipass_docker6.yml << _EOF_
+cat > ./multipass_docker.yml << _EOF_
 ---
 locale: en_US.UTF8
 timezone: Asia/Tokyo
